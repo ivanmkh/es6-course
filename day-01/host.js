@@ -1,0 +1,1 @@
+console.log(typeof document, typeof process, typeof globalThis);
