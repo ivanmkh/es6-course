@@ -102,12 +102,12 @@ js-es6-60/
 
 ### Week 1 — Language basics
 
-- [ ] **Day 1 — Environment & first run**
+- [x] **Day 1 — Environment & first run**
   - **Learn:** how JS executes (engine, browser vs Node), `<script defer>` vs `type="module"`, `'use strict'`, console API, reading stack traces.
   - **Do:** run a file with Node; load a module script in an HTML page; use `console.log/table/time/trace`; deliberately cause 3 errors and read each stack trace.
   - **Ship:** `days/day-01/` + notes: "3 ways to run JS and when to use each".
 
-- [ ] **Day 2 — Variables, scope, types**
+- [x] **Day 2 — Variables, scope, types**
   - **Learn:** `let`/`const` vs `var`, block scope, hoisting, TDZ, 7 primitives + object, `typeof`, `null` vs `undefined`, dynamic typing.
   - **Do:** 8 predict-the-output snippets (`var` in loop, TDZ ReferenceError, `const` object mutation, `typeof null`, `typeof undeclared`); build a `typeof` table.
   - **Ship:** `scope-experiments.js` with a comment explaining every result.
