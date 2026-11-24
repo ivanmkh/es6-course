@@ -112,7 +112,7 @@ js-es6-60/
   - **Do:** 8 predict-the-output snippets (`var` in loop, TDZ ReferenceError, `const` object mutation, `typeof null`, `typeof undeclared`); build a `typeof` table.
   - **Ship:** `scope-experiments.js` with a comment explaining every result.
 
-- [ ] **Day 3 — Operators, coercion, equality**
+- [x] **Day 3 — Operators, coercion, equality**
   - **Learn:** arithmetic/comparison/logical operators, `==` vs `===`, the falsy list, `||` vs `??`, short-circuiting, `?.`, `&&=`/`||=`/`??=`, ternary.
   - **Do:** 12-row coercion prediction table, then verify; write `isEmpty(value)`; refactor nested `if`s into guard clauses + optional chaining.
   - **Ship:** notes: "when `??` beats `||`" with 2 real examples (0 and '').
